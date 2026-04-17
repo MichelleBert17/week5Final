@@ -7,9 +7,10 @@ RUN npm install
 
 COPY . .
 
-# Build TypeScript
-RUN npx tsc
+# Build TypeScript (IMPORTANT)
+RUN npm run build
 
 EXPOSE 3001
 
+# Run compiled JS (not TS)
 CMD ["node", "dist/index.js"]
