@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Cloud Infrastructure Project</h1>
+        <h1><h1>Cloud Project v2</h1></h1>
 
         {/* Display message from backend */}
         <p>Message from backend: {message}</p>
